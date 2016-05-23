@@ -11,7 +11,7 @@
 import {
   GraphQLList,
   GraphQLNonNull,
-} from 'graphql';
+} from 'flow-graphql';
 
 import type {
   GraphQLFieldConfig,
@@ -21,7 +21,7 @@ import type {
   GraphQLScalarType,
   GraphQLEnumType,
   GraphQLInputObjectType
-} from 'graphql';
+} from 'flow-graphql';
 
 export type PluralIdentifyingRootFieldConfig = {
   argName: string,

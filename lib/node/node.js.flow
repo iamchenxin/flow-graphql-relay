@@ -12,13 +12,13 @@ import {
   GraphQLInterfaceType,
   GraphQLNonNull,
   GraphQLID
-} from 'graphql';
+} from 'flow-graphql';
 
 import type {
   GraphQLFieldConfig,
   GraphQLObjectType,
   GraphQLResolveInfo
-} from 'graphql';
+} from 'flow-graphql';
 
 import {
   base64,

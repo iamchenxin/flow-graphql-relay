@@ -15,12 +15,12 @@ import {
   GraphQLList,
   GraphQLObjectType,
   GraphQLString
-} from 'graphql';
+} from 'flow-graphql';
 
 import type {
   GraphQLFieldConfigArgumentMap,
   GraphQLFieldConfigMap
-} from 'graphql';
+} from 'flow-graphql';
 
 /**
  * Returns a GraphQLFieldConfigArgumentMap appropriate to include on a field

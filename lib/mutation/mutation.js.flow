@@ -13,14 +13,14 @@ import {
   GraphQLNonNull,
   GraphQLObjectType,
   GraphQLString
-} from 'graphql';
+} from 'flow-graphql';
 
 import type {
   GraphQLFieldConfig,
   InputObjectConfigFieldMap,
   GraphQLFieldConfigMap,
   GraphQLResolveInfo
-} from 'graphql';
+} from 'flow-graphql';
 
 export type mutationFn = (object: Object, ctx: mixed,
   info: GraphQLResolveInfo) => ( Object | Promise<Object> );

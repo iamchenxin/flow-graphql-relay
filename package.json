@@ -1,6 +1,6 @@
 {
   "name": "flow-graphql-relay",
-  "version": "0.0.1",
+  "version": "0.4.1",
   "description": "graphql-relay(0.4.1) with .js.flow output",
   "contributors": [
     "Daniel Schafer <dschafer@fb.com>"
@@ -34,27 +34,16 @@
   "scripts": {
     "build": "rm -rf lib/* && babel src --ignore __tests__ --optional runtime --out-dir lib && gulp flow"
   },
-  "dependencies": {
-    "babel-runtime": "~5.8.3"
-  },
   "peerDependencies": {
-    "graphql": "~0.6.0"
+    "flow-graphql": "^0.6.2"
   },
   "devDependencies": {
-    "babel": "5.8.3",
-    "babel-core": "5.8.3",
-    "babel-eslint": "5.0.0",
-    "babel-preset-fbjs": "^1.0.0",
-    "chai": "3.5.0",
-    "chai-as-promised": "5.3.0",
-    "coveralls": "2.11.8",
     "eslint": "2.2.0",
     "flow-bin": "0.22.1",
-    "graphql": "~0.6.0",
+    "flow-graphql": "^0.6.2",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
     "isparta": "3.0.3",
-    "mocha": "2.2.5",
     "sane": "1.1.3"
   }
 }
