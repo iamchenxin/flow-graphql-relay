@@ -1,7 +1,7 @@
 {
   "name": "flow-graphql-relay",
-  "version": "0.4.1",
-  "description": "graphql-relay(0.4.1) with .js.flow output",
+  "version": "0.4.2",
+  "description": "graphql-relay(0.4.2) with .js.flow output",
   "contributors": [
     "Daniel Schafer <dschafer@fb.com>"
   ],
@@ -35,15 +35,16 @@
     "build": "rm -rf lib/* && babel src --ignore __tests__ --optional runtime --out-dir lib && gulp flow"
   },
   "peerDependencies": {
-    "flow-graphql": "^0.6.2"
+    "flow-graphql": "^0.6.4"
   },
   "devDependencies": {
     "eslint": "2.2.0",
-    "flow-bin": "0.22.1",
-    "flow-graphql": "^0.6.2",
+    "flow-bin": "0.25.0",
+    "flow-dynamic": "^0.0.9",
+    "flow-graphql": "^0.6.4",
     "gulp": "^3.9.1",
     "gulp-rename": "^1.2.2",
-    "isparta": "3.0.3",
-    "sane": "1.1.3"
+    "isparta": "4.0.0",
+    "sane": "1.3.4"
   }
 }
