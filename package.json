@@ -1,6 +1,6 @@
 {
   "name": "flow-graphql-relay",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "graphql-relay(0.4.2) with .js.flow output",
   "contributors": [
     "Daniel Schafer <dschafer@fb.com>"
