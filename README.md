@@ -1,4 +1,5 @@
-# This repository is abandoned, i move to [relayql](https://github.com/iamchenxin/relayql)
+## This repository is abandoned, i move to [relayql](https://github.com/iamchenxin/relayql)
+
 
 # graphql-relay with .js.flow output
 
